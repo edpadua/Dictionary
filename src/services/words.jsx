@@ -1,6 +1,6 @@
 import instance from "../common/config/api"
 
-const booksService = {
+const wordsService = {
     find: async (word) => {
 
         
@@ -9,7 +9,7 @@ const booksService = {
         const resp = await instance.get(url);
         console.log("data", resp.data[0])
 
-        return resp.data[0];
+        return resp.data;
     }
 }
 

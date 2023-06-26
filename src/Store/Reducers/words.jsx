@@ -19,6 +19,7 @@ export const findWords = createAsyncThunk(
         findWords.fulfilled,
         (state, { payload }) => {
           console.log('words loaded!');
+          console.log('payload',payload);
           return payload;
         }
       )

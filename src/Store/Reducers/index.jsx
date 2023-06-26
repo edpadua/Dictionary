@@ -6,7 +6,7 @@ import searchSlice from './search';
 const store = configureStore({
   reducer: {
    
-    books: wordsSlice,
+    words: wordsSlice,
     search: searchSlice,
   }
 });
