@@ -29,7 +29,7 @@ function WordList() {
     }, [search, dispatch]);
 
   return (
-    <div >
+    <div className="container mx-auto px-8 pt-8 pb-20 min-h-screen">
     {console.log("palavras", words)}
    
     {words.words ?

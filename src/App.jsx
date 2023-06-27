@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './Components/Navbar'
 import WordList from './Components/WordList'
+import Footer from './Components/Footer'
 
 function App() {
   
@@ -14,7 +15,7 @@ function App() {
       <div >
         <WordList/>
       </div>
-
+      <Footer/>
     </>
   )
 }
