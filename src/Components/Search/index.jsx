@@ -21,7 +21,7 @@ function Search() {
         <div className="flex-auto w-64">
             <input
                 className='rounded-md border-none outline-none h-8 w-2/5 px-2 mt-1'
-                placeholder="Digite a palavra"
+                placeholder="Type the word you are looking for ..."
                 value={search}
                 onChange={evento => dispatch(changeSearch(evento.target.value))}
             />

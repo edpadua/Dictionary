@@ -17,9 +17,9 @@ function Word({ word }) {
             </div>
             <div>
                 {word.meanings.map((meaning, index) => <>
-                    <h3 className='text-sky-600 font-bold'>Significado: </h3>
+                    <h3 className='text-sky-600 font-bold'>Meaning: </h3>
                     <p>{meaning.partOfSpeech}</p>
-                    <h3 className='text-sky-600 font-bold'>Definiçao: </h3>
+                    <h3 className='text-sky-600 font-bold'>Deinition: </h3>
                     {
                         meaning.definitions.map((definition, index2) => <>
                             {console.log("definition a", definition)}
@@ -30,7 +30,7 @@ function Word({ word }) {
                         )
                     }
                 </>)}
-                <h3 className='text-sky-600 font-bold'>Pronúncia: </h3>
+                <h3 className='text-sky-600 font-bold'>Phonetics: </h3>
              
                 {word.phonetics.map((phonetic, index3) => <>
                     {phonetic.audio != '' ?
