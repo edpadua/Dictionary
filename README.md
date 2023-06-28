@@ -1,5 +1,9 @@
 # Dictionary
 
+
+https://github.com/edpadua/Dictionary/assets/4975360/120c9238-d9b7-4667-b06a-ba258d2e7c4a
+
+
 # Summary
 
 - [About](#about)
