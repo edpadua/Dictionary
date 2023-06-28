@@ -18,6 +18,22 @@ This project consists of a dictionary developed in ReactJS with a list of Englis
 
 In this project, the Redux Toolkit, Redux Thunk, the Axios library were used to consume the Free Dictionary API, react-icons for the icons, Tailwind CSS was used for the styles. The organization of this project is similar to the shopping cart system and the book list previously developed, but instead of using Sass I am using Tailwind CSS
 
+### Screeshot - Desktop
+
+![image](https://github.com/edpadua/Dictionary/assets/4975360/e1f57a2e-a287-4769-b303-172f44990637)
+
+
+### Screeshot - Tablet
+
+![image](https://github.com/edpadua/Dictionary/assets/4975360/a2b5b29e-5e52-4611-8ac9-8518d1216a5e)
+
+
+### Screeshot - Mobile
+
+<img src="https://github.com/edpadua/Dictionary/assets/4975360/cfcf21c6-bb61-4d84-9a70-0ed099109491" style="width: 50%;" >
+
+
+
 ### Technologies
 
 - [ReactJS](https://reactjs.org)
